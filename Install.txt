@@ -1,0 +1,13 @@
+Requirements:
+sudo apt-get install apache2
+Ubuntu or Kali linux
+Python 2.7
+//So if you want to host a domain from apache2 server in kali linux or ubuntu,This script is for you.
+Run Apache.py
+Then perform the Final Step.(see the webpage for detail)This step is optional for those who don't have their own bought domain.
+Now if you want to reconfigure your apache2
+Run script Apache-Fix.py
+//Task of this script is explained below
+For reconfiguring your apache after running the script
+delete files(NOT ALL) from /etc/apache2/sites-enabled as well as /etc/apache2/sites-available
+delete created directories from /var/www
